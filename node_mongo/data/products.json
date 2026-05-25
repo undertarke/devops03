@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040700"
+  },
+  "name": "iPhone 15 Pro",
+  "price": 28990000,
+  "category": "Điện thoại",
+  "stock": 25,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.231Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.231Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040701"
+  },
+  "name": "Samsung Galaxy S24",
+  "price": 22990000,
+  "category": "Điện thoại",
+  "stock": 30,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040702"
+  },
+  "name": "MacBook Air M3",
+  "price": 32990000,
+  "category": "Laptop",
+  "stock": 15,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040703"
+  },
+  "name": "Dell XPS 13",
+  "price": 27500000,
+  "category": "Laptop",
+  "stock": 10,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040704"
+  },
+  "name": "iPad Air",
+  "price": 16990000,
+  "category": "Tablet",
+  "stock": 20,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040705"
+  },
+  "name": "AirPods Pro 2",
+  "price": 5990000,
+  "category": "Phụ kiện",
+  "stock": 50,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040706"
+  },
+  "name": "Sony WH-1000XM5",
+  "price": 8490000,
+  "category": "Phụ kiện",
+  "stock": 18,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040707"
+  },
+  "name": "Apple Watch Series 9",
+  "price": 10990000,
+  "category": "Đồng hồ",
+  "stock": 22,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040708"
+  },
+  "name": "Bàn phím Logitech MX",
+  "price": 2490000,
+  "category": "Phụ kiện",
+  "stock": 40,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a104e2b282a1e3872040709"
+  },
+  "name": "Chuột Logitech MX 3",
+  "price": 2290000,
+  "category": "Phụ kiện",
+  "stock": 45,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:38:03.232Z"
+  }
+}]

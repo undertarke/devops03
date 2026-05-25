@@ -1,0 +1,20 @@
+version: '3'
+
+# nơi build, pull image và khởi tạo container
+services: 
+  node_backend:
+    container_name: node_backend
+    ports:
+      - 8088:8088
+    
+    build: . # docker build . -t img-node
+    # image: tuannguyen03011988/devops03 # docker pull tuannguyen03011988/devops03
+    # environment:
+    #   - MONGO_URI=mongodb://admin:admin123@mongodb:27017/shopdb?authSource=admin
+    networks:
+      - demo_network
+
+
+networks:
+  demo_network:
+    external: true
