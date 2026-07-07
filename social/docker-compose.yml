@@ -1,0 +1,20 @@
+version: "3"
+services:
+  cons-front-end:
+    container_name: cons-front-end
+    ports:
+      - 5173:80
+    build: ./frontend
+  
+  cons-back-end:
+    container_name: cons-back-end
+    ports:
+      - 8800:8800
+    build: ./API
+    networks:
+      - demo_network
+
+
+networks:
+  demo_network:
+    external: true
