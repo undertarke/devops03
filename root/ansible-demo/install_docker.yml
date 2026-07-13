@@ -1,0 +1,24 @@
+- name: Setup ansible playbook
+  hosts: danh_sach_host
+  become: true
+
+  tasks:
+    - name: Cài docker
+      apt:
+        name: docker.io
+        state: present
+    
+    - name: Cài docker compose
+      shell: curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+    - name: Phân quyền docker compose
+      shell: chmod 700 /usr/local/bin/docker-compose
+
+    - name: clone souce
+      git:
+        repo: https://github.com/undertarke/devops03.git
+        dest: /root/demo
+        version: main
+
+
+# ansible-playbook -i hosts.ini install_docker.yml
