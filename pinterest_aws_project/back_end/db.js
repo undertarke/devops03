@@ -2,8 +2,8 @@ import AWS from 'aws-sdk'
 
 AWS.config.update({
     region: "ap-southeast-1",
-    accessKeyId: "AKIAQADGFPGN4KWWG4E5",
-    secretAccessKey: "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"
+    accessKeyId: "",
+    secretAccessKey: ""
 })
 
 const db = new AWS.DynamoDB.DocumentClient()

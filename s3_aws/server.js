@@ -17,8 +17,8 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage })
 const s3 = new S3Client({
     credentials: {
-        accessKeyId: "AKIAQADGFPGNUTJL4XGS",
-        secretAccessKey: "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"
+        accessKeyId: "",
+        secretAccessKey: ""
     },
     region: "ap-southeast-1"
 })

@@ -24,8 +24,8 @@ const upload = multer({ storage: storage })
 
 const s3 = new S3Client({
     credentials: {
-        accessKeyId: "AKIAQADGFPGNSNYW3PVC",
-        secretAccessKey: "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"
+        accessKeyId: "",
+        secretAccessKey: ""
     },
     region: "ap-southeast-1"
 })
@@ -57,5 +57,5 @@ app.post("/upload", upload.single("image"), async (req, res) => {
 
 })
 
-// app.listen(8081)
-export const handler = serverless(app)
+app.listen(8081)
+// export const handler = serverless(app)
